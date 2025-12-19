@@ -1,0 +1,65 @@
+/* style.css - sederhana */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #ffd6e7;   /* warna latar */ 
+    min-height:100vh;
+    color: #d44a86;  /* warna text */ 
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .topbar {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:#f0a4bc;  /* warna koom selamat datang */ 
+    padding:10px 16px;
+    border-radius:8px;
+    box-shadow:0 1px 3px rgba(22, 72, 8, 0.06);
+    margin-bottom:16px;
+  }
+  
+  .container {
+    background: #ffd6e7;   /* warna koom daftar surat masuk */ 
+    padding:16px;
+    border-radius:8px;
+    box-shadow:0 1px 3px rgba(0,0,0,0.06);
+  }
+  
+  .card {
+    max-width:420px;
+    margin:40px auto;
+    background:#fbc8dd;   /* warna kolom tambah surat */
+    padding:18px;
+    border-radius:8px;
+    box-shadow:0 6px 18px rgba(0,0,0,0.06);
+  }s
+  
+  .card h2 { margin-bottom:12px; }
+  label { display:block; margin-top:10px; font-weight:600; }
+  input[type="text"], input[type="email"], input[type="password"], input[type="date"], textarea {
+    width:100%;
+    padding:8px;
+    margin-top:6px;
+    border:1px solid #853866;
+    border-radius:6px;
+    box-sizing:border-box;
+  }
+  textarea { min-height:90px; resize:vertical; }
+  
+  button {
+    background:#ef9ad0; 
+    color:#ffe4ef;
+    border:none;
+    padding:10px 14px;
+    border-radius:6px;
+    cursor:pointer;
+  }
+  button:hover { opacity:0.95; }
+  
+  .btn-link { color:#d44a86; text-decoration:none; margin-left:10px; }    /* warna "batal" */ 
+  
+  .errors { background:#ffffff; padding:8px; border-radius:6px; color:rgba(184, 34, 34, 0.667); margin-bottom:10px; }    /* warna "pasword/email salah" */ 
+  .data-table { width:100%; border-collapse:collapse; margin-top:12px; }
+  .data-table th, .data-table td { padding:8px; border:1px solid #eee; text-align:left; }
+  .data-table th { background:#feacdc; }
